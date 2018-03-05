@@ -1,0 +1,90 @@
+
+/*  footer */
+footer{
+	background-color:;
+	
+}
+.col_1 p {
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.social_icon {
+    margin-left: -18px;
+}
+.social_icon li{
+position: relative;
+margin-right: 0px;
+display: inline-block;
+}
+.social_icon li a{
+position: relative;
+width: 38px;
+height: 38px;
+font-size: 16px;
+text-align: center;
+border-radius: 50%;
+line-height: 38px;
+color: #a7a7a7;
+display: inline-block;
+background-color: #ebebeb;
+}
+.social_icon li a:hover{
+	color:#fff;
+	background-color:#3FBC46;
+}
+
+
+.col_2 ul{
+	margin-left: -30px;
+list-style:none;
+
+}
+.quick_link li{
+position: relative;
+margin-bottom: 6px;
+
+}
+.quick_link li a{
+   position: relative;
+    display: block;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 4px 0px 4px 20px;
+    text-transform: capitalize;
+    color: #777777;
+  }
+  .quick_link li a:hover{
+		color:#3FBC46;
+	text-decoration:none;
+	  
+  }
+.quick_link li a::before{
+position: absolute;
+content: '\f105';
+left: 0px;
+top: 2px;
+font-family: 'FontAwesome';
+}
+.col_4 {
+    margin-left: -35px;
+}
+.col_4 li{
+list-style:none;
+position: relative;
+color: #777777;
+font-size: 15px;
+padding-left: 35px;
+margin-bottom: 15px;
+}
+
+.icons{
+position: absolute;
+left: 0px;
+top: 2px;
+color: #3FBC46;
+line-height: 1em;
+font-size: 20px;
+}
+/* end footer */
